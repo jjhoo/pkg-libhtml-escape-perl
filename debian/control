@@ -1,0 +1,21 @@
+Source: libhtml-escape-perl
+Section: perl
+Priority: optional
+Maintainer: Jani Hakala <jjhakala@gmail.com>
+Build-Depends: debhelper (>= 9.20120312~),
+ libtest-requires-perl,
+ perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/HTML-Escape
+
+Package: libhtml-escape-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Extremely fast HTML escape
+ HTML::Escape escapes HTML's special chars. It's same as PHP's
+ htmlspecialchars.
+ .
+ This module uses XS for better performance. And also provides pure perl
+ version.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
